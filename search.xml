@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/03/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>kali install</title>
-    <url>/2024/03/08/kali-install/</url>
+    <url>/2024/03/08/kali-install/kali-install/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>前几天安装了kali linux，可谓步骤非常繁琐，考虑到六月份可能要换电脑[doge],记录一下自己的操作过程。</p>
 <h2 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h2><p>首先就是整一个，VMware，这个不用说网上下或者怎么渠道的都行，我的则是在百度网盘就有一个整合的资料，在b站搞的，自带key非常nice。</p>
 <p>安装好后可以先不着急打开，来网上整一个kali的ios镜像，这里我是在阿里云的镜像源网站上下载       </p>
@@ -32,7 +14,7 @@
 <h3 id="突发状况-解决办法"><a href="#突发状况-解决办法" class="headerlink" title="突发状况&amp;&amp;解决办法"></a>突发状况&amp;&amp;解决办法</h3><p>上面基本上没啥出错，主要讲讲后面遇到的问题，在网上搜索了解决办法。</p>
 <p>突发情况</p>
 <p>一、镜像源更换中的问题</p>
-<p>出现问题的时候忘记截图了不过大概是<br><img src="/" alt="baocuo"><br>运行 </p>
+<p>出现问题的时候忘记截图了不过大概是<br><img src="/2024/03/08/kali-install/kali-install/" alt="baocuo"><br>运行 </p>
 <figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">wget archive.kali.org/archive-key.asc</span><br><span class="line">apt-key add archive-key.asc</span><br></pre></td></tr></tbody></table></figure>
 
 <p> 然后更新apt</p>
