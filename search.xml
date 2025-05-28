@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>kali install</title>
+    <url>/2024/03/08/kali-install/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>前几天安装了kali linux，可谓步骤非常繁琐，考虑到六月份可能要换电脑[doge],记录一下自己的操作过程。</p>
+<h2 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h2><p>首先就是整一个，VMware，这个不用说网上下或者怎么渠道的都行，我的则是在百度网盘就有一个整合的资料，在b站搞的，自带key非常nice。</p>
+<p>安装好后可以先不着急打开，来网上整一个kali的ios镜像，这里我是在阿里云的镜像源网站上下载       </p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">https://developer.aliyun.com/mirror/kali</span><br></pre></td></tr></tbody></table></figure>
+<p>(之后要用换的镜像源也在这里)随便选一个就行，不过要注意是amd，64位就是xxxxxx.amd64.ios。</p>
+<p>然后就照着网上找的kali安装教程一步步来，比如   </p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">https://zhuanlan.zhihu.com/p/678676091</span><br></pre></td></tr></tbody></table></figure>
+<p>博主写的蛮详细的。</p>
+<h3 id="突发状况-解决办法"><a href="#突发状况-解决办法" class="headerlink" title="突发状况&amp;&amp;解决办法"></a>突发状况&amp;&amp;解决办法</h3><p>上面基本上没啥出错，主要讲讲后面遇到的问题，在网上搜索了解决办法。</p>
+<p>突发情况</p>
+<p>一、镜像源更换中的问题</p>
+<p>出现问题的时候忘记截图了不过大概是<br><img src="/2024/03/08/kali-install/kali%20install.png" alt="baocuo"><br>运行 </p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">wget archive.kali.org/archive-key.asc</span><br><span class="line">apt-key add archive-key.asc</span><br></pre></td></tr></tbody></table></figure>
+
+<p> 然后更新apt，完美解决！</p>
+<p>其他问题目前还未出现，等待后续</p>
+<h1 id="该陪女朋友去了下机！！"><a href="#该陪女朋友去了下机！！" class="headerlink" title="该陪女朋友去了下机！！"></a>该陪女朋友去了下机！！</h1>]]></content>
+      <categories>
+        <category>install</category>
+      </categories>
+      <tags>
+        <tag>kali</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2025/05/28/test/</url>
+    <content><![CDATA[<p>#测试一下</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>web-study</title>
+    <url>/2024/03/18/web-study/</url>
+    <content><![CDATA[<h1 id="START"><a href="#START" class="headerlink" title="START"></a>START</h1><p>历经千辛万苦（主要是自己懒），终于开始了对web的学习，打算用这篇博客记录一下我的学习过程，也方便之后的温故知新。</p>
+]]></content>
+      <categories>
+        <category>CTF</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
+      </tags>
+  </entry>
+</search>
