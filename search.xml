@@ -3,7 +3,26 @@
   <entry>
     <title>jiuguan</title>
     <url>/2025/05/28/jiuguan/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>#酒馆战棋记<br>可恶的鲍勃昨天给我和阿宝发的什么臭牌，气得我俩半夜睡不着觉<br>鲍勃你告诉我为什么我们打了三天酒馆一分都没上</p>
+]]></content>
+      <categories>
+        <category>install</category>
+      </categories>
+      <tags>
+        <tag>kali</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>web-study</title>
+    <url>/2024/03/18/web-study/</url>
+    <content><![CDATA[<h1 id="START"><a href="#START" class="headerlink" title="START"></a>START</h1><p>历经千辛万苦（主要是自己懒），终于开始了对web的学习，打算用这篇博客记录一下我的学习过程，也方便之后的温故知新。</p>
+]]></content>
+      <categories>
+        <category>CTF</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
+      </tags>
   </entry>
   <entry>
     <title>kali install</title>
@@ -30,18 +49,6 @@
       </categories>
       <tags>
         <tag>kali</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>web-study</title>
-    <url>/2024/03/18/web-study/</url>
-    <content><![CDATA[<h1 id="START"><a href="#START" class="headerlink" title="START"></a>START</h1><p>历经千辛万苦（主要是自己懒），终于开始了对web的学习，打算用这篇博客记录一下我的学习过程，也方便之后的温故知新。</p>
-]]></content>
-      <categories>
-        <category>CTF</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
       </tags>
   </entry>
 </search>
